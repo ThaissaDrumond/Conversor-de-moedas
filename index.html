@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+          Conversor de moedas
+        </h1>
+        <p class="page-subtitle">
+          Descubra os valores em Dolar U$, Bitcoin ₿, Euro € ou Real R$
+        </p>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+        <label for="moeda">Insira o valor em Real R$</label><br>
+        <input type="number" id="valor" size="2" /><br>
+        <button type="submit" onclick="ConverterDolar()">Converter Dolar</button>
+        <button type="submit" onclick="ConverterBitcoin()">Converter Bitcoin</button>
+        <button type="submit" onclick="ConverterEuro()">Converter Euro</button>
+        <h2 id="valorConvertido"></h2>
+      
+        <label for="moeda">Insira o valor em Dólar U$</label><br>
+        <input type="number" id="valorDolar" size="2" /><br>
+        <button type="submit" onclick="ConverterReal()">Converter Real</button>
+        <h2 id="valorConvertidoReal"></h2>
+      
+        <label for="moeda">Insira o valor em Bitcoin ₿</label><br>
+        <input type="number" id="valorBitcoin" size="2" /><br>
+        <button type="submit" onclick="ConverterRealB()">Converter Real</button>
+        <h2 id="valorConvertidoRealB"></h2>
+      
+        <label for="moeda">Insira o valor em Euro €</label><br>
+        <input type="number" id="valorEuro" size="2" /><br>
+        <button type="submit" onclick="ConverterRealE()">Converter Real</button>
+        <h2 id="valorConvertidoRealE"></h2>
+      <footer>
+        <h6>Valores atualizados em 28 de Junho de 2022 </h6>
+      </footer>
+      </div>
+      <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+
+</body>
+<script src="./assets/JS/script.js"></script>
+</html>

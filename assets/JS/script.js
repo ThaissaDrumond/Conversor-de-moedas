@@ -2,7 +2,7 @@ function ConverterDolar() {
     var valorInformado = document.getElementById("valor");
     var valor = valorInformado.value;
     var valorX = parseFloat(valor);
-    var valorDolar = valorX / 5.27;
+    var valorDolar = valorX / 5.26;
     var valorFinal = valorDolar.toFixed(2);
     console.log(valorFinal);
     var elementoConvertido = document.getElementById("valorConvertido");
@@ -14,7 +14,7 @@ function ConverterDolar() {
     var valorInformado = document.getElementById("valor");
     var valor = valorInformado.value;
     var valorNovo = parseFloat(valor);
-    var valorBitcoin = valorNovo / 106917.44;
+    var valorBitcoin = valorNovo / 100346.73;
     console.log(valorBitcoin);
     var valorFinalBitcoin = valorBitcoin.toFixed(8);
   
@@ -26,7 +26,7 @@ function ConverterDolar() {
     var valorInformado = document.getElementById("valor");
     var valor = valorInformado.value;
     var valorInformado = parseFloat(valor);
-    var valorEuro = valorInformado / 5.55;
+    var valorEuro = valorInformado / 5.10;
     console.log(valorEuro);
     var valorFinalEuro = valorEuro.toFixed(2);
   
@@ -39,7 +39,7 @@ function ConverterDolar() {
     var valorInformado = document.getElementById("valorDolar");
     var valor = valorInformado.value;
     var valorInformado = parseFloat(valor);
-    var valorReal = valorInformado * 5.27;
+    var valorReal = valorInformado * 5.26;
     console.log(valorReal);
     var valorFinalReal = valorReal.toFixed(2);
   
@@ -52,7 +52,7 @@ function ConverterDolar() {
     var valorInformado = document.getElementById("valorBitcoin");
     var valor = valorInformado.value;
     var valorNovo = parseFloat(valor);
-    var valorRealB = valorNovo * 106917.44;
+    var valorRealB = valorNovo * 100346.73;
     console.log(valorRealB);
     var valorFinalRealB = valorRealB.toFixed(2);
   
@@ -65,7 +65,7 @@ function ConverterDolar() {
     var valorInformado = document.getElementById("valorEuro");
     var valor = valorInformado.value;
     var valorInformado = parseFloat(valor);
-    var valorRealE = valorInformado * 5.55;
+    var valorRealE = valorInformado * 5.10;
     console.log(valorRealE);
     var valorFinalRealE = valorRealE.toFixed(2);
   

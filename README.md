@@ -17,8 +17,8 @@ Objetivo: Criar uma calculadora para conversão de moedas
 * CSS
 * Javascript
 
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/90909646/192113404-f54d4ebf-2182-4422-be54-f30f2bd3e26f.gif#vitrinedev)
 
 
-![image](https://user-images.githubusercontent.com/90909646/176328114-e862534c-783f-4efe-b2d6-4643b9c855db.png#vitrinedev)
 
 Desenvolvida durante a Imersão Dev - Alura / 2021
